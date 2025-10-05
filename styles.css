@@ -19,7 +19,8 @@ html {
     font-size: 34px;
 }
 .course-hours {
-    padding: 1px;
+    letter-spacing:-1px
+    font-size: 12px;
 }
 .course-dishes {
 
@@ -34,8 +35,18 @@ html {
     padding: 6px;
 }
 .dish-name {
-
+    list-style-type: none;
 }
 .ingredients {
-
+    list-style-type: square;
+}
+.tags {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #555;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    margin: 4px;
+    font-size: 12px;
 }
